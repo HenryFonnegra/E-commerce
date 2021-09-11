@@ -11,39 +11,53 @@ body {
   font-size: 16px;
   background: #7358eb57;
 }
-
-.contenedor {
-  width: 100%; /* ancho de la bara de navegacion */
-  max-width: 100%; /* ancho maximo de la bara de navegacion */
-  margin: 2px auto; /* distancia de la barra de navegacion de la parte superior */
-  overflow: hidden; 
+.navbar-light{
+  background: linear-gradient(to right, rgb(94, 145, 255), rgb(116, 14, 14));
+}
+.search{
+  margin-right: 15px;
 }
 
-header {
-  background: rgb(255, 255, 255); /* color de la bara de navegacion */
+.login{
+  width: 40%;
+  /* background-color: rgb(68, 0, 255); */
+  margin: auto;
 }
-header nav {
-  width: 100%; 
+.login h2{
+  margin: 10px;
+  text-align: center;
 }
-header nav ul {
+
+/*Barra de opciones*/
+/* .contedor nav {
+  width: 100%;
+  background: linear-gradient(to right, rgb(94, 145, 255), rgb(116, 14, 14));
+} */
+/* nav ul { 
+  margin: auto;
   list-style: none;
   overflow: hidden; 
-}
-.item{ 
- float: right;
-}
-header nav ul li {
-  float:left; 
-}
-header nav ul li a {
+} */
+/* header nav ul li a {
   text-decoration: none;
   display: inline-block;
   color: #000;
   padding: 15px 20px; 
-}
-header nav ul li a:hover {
+} */
+/* header nav ul li a:hover {
   background: #000;
   color: #fff; 
+  font-weight: bold;
+} */
+
+/*Carrucel*/
+.carousel-item img{
+  margin: auto;
+  width: 70%;
+  height: 450px;
+}
+.carousel button{
+  background-color: rgb(71, 71, 71);
 }
 
 
@@ -76,17 +90,31 @@ header nav ul li a:hover {
 
 .thumbnail{
   float: left;
-  margin: 2px;
-  background: rgb(212, 212, 212);
+  margin-left: 8px;
+  margin-right: 5px;
+  /* width: 29%;
+  margin: 2%;
+  background: rgb(212, 212, 212); */
 }
 .thumbnail img{
+  width: 95%;
   margin: 5px;
   padding: 5px;
 }
 .thumbnail .caption p{
   margin: 5px;
 }
+
 .thumbnail h3{
   text-align: center;
 }
-    
+.footer{
+  width: 98%;
+  float:none;
+  background: #fff; 
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
