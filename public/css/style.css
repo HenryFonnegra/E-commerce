@@ -9,46 +9,28 @@
 body {
   font-family: Arial, Sans-serif;
   font-size: 16px;
-  background: #7358eb57;
+  /* background: #7358eb57; */
 }
 .navbar-light{
-  background: linear-gradient(to right, rgb(94, 145, 255), rgb(116, 14, 14));
+  background: linear-gradient(to right, rgb(21, 0, 80),rgb(243, 243, 243), rgb(97, 0, 148));
 }
 .search{
   margin-right: 15px;
 }
-
+/*Login*/
 .login{
   width: 40%;
-  /* background-color: rgb(68, 0, 255); */
   margin: auto;
 }
-.login h2{
+
+
+/*Usuario create*/
+.user h2{
   margin: 10px;
   text-align: center;
 }
 
-/*Barra de opciones*/
-/* .contedor nav {
-  width: 100%;
-  background: linear-gradient(to right, rgb(94, 145, 255), rgb(116, 14, 14));
-} */
-/* nav ul { 
-  margin: auto;
-  list-style: none;
-  overflow: hidden; 
-} */
-/* header nav ul li a {
-  text-decoration: none;
-  display: inline-block;
-  color: #000;
-  padding: 15px 20px; 
-} */
-/* header nav ul li a:hover {
-  background: #000;
-  color: #fff; 
-  font-weight: bold;
-} */
+
 
 /*Carrucel*/
 .carousel-item img{
@@ -57,17 +39,22 @@ body {
   height: 450px;
 }
 .carousel button{
-  background-color: rgb(71, 71, 71);
+  background-color: rgba(71, 71, 71, 0.267);
 }
 
+.Formulario div{
+  margin-bottom: 20px;
+}
 
 .main {
-  width: 90%;
+  width: 80%;
   float:none;
-  background: #fff; 
   margin: 5px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+}
+.main .card{
+  background: rgba(97, 100, 148, 0.247);
 }
 .main .imagen {
   width: 100%; 
@@ -88,13 +75,15 @@ body {
   line-height: 27px; 
 }
 
+.thumbnail .card{
+  background-color: rgb(255, 255, 255);
+  width: 21rem;
+  margin-bottom: 10px;
+}
 .thumbnail{
   float: left;
-  margin-left: 8px;
-  margin-right: 5px;
-  /* width: 29%;
-  margin: 2%;
-  background: rgb(212, 212, 212); */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .thumbnail img{
   width: 95%;

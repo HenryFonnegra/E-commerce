@@ -9,30 +9,33 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <div class="contenedor">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.php">Logo</a>
+                <a class="navbar-brand" href="index.php">
+                    <img src="../../public/img/Logo.png" alt="" width="55" height="35" class="d-inline-block align-text-top">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#"> <b>Inicio</b> </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Ofertas</a>
+                            <a class="nav-link" href="#"> <b>Ofertas</b> </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Categorias
+                                <b>Categorias</b> 
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Celulares</a></li>
-                                <li><a class="dropdown-item" href="#">Compuadores</a></li>
+                                <li><a class="dropdown-item" href="#">Computadores</a></li>
                                 <li><a class="dropdown-item" href="#">Tablets</a></li>
                                 <li><a class="dropdown-item" href="#">Smartwatch</a></li>
                                 <li><a class="dropdown-item" href="#">Televisores</a></li>
@@ -41,26 +44,29 @@
                             </ul>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="Producto/Create.php"> <b>Vender</b> </a>
+                        </li>
+
+                        <li class="nav-item">
                             <ul>
                                 <div class="search">
                                     <form class="d-flex">
-                                        <input class="form-control" size="85" type="search" placeholder="Search" aria-label="Search">
-                                        <button class="btn btn-success" type="submit">Search</button>
+                                        <input class="form-control" size="50" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn btn-success" type="submit">Buscar</button>
                                     </form>
                                 </div>
                             </ul>
                         </li>
 
+
                     </ul>
                     <form class="d-flex navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="login.php"><b>Iniciar sesion</b></a>
+                            <a class="nav-link active" aria-current="page" href="login.php"> <i class="fas fa-sign-in-alt"></i> <b>Iniciar sesión</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"><b>Registrarse</b></a>
+                            <a class="nav-link active" aria-current="page" href="Usuario/Create.php"><b>Registrarse</b></a>
                         </li>
-                        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button> -->
                     </form>
                 </div>
             </div>
@@ -100,48 +106,50 @@
                     </div>
 
                     <div class="thumbnail">                                       
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="../../public/img/1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Ver</a>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="#" class="btn btn-danger">Favoritos</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Comprar</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
                             </div>
                         </div>
                     </div>                    
                     <div class="thumbnail">                                       
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="../../public/img/2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Ver</a>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="#" class="btn btn-danger">Favoritos</a>                            </div>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Comprar</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
                         </div>
                     </div>
                     <div class="thumbnail">                                       
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="../../public/img/3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Ver</a>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="#" class="btn btn-danger">Favoritos</a>                            </div>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Comprar</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
                         </div>
                     </div>
                     <div class="thumbnail">                                       
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="../../public/img/4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Ver</a>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="#" class="btn btn-danger">Favoritos</a>                            
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Comprar</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>                            
                             </div>
                         </div>
                     </div>
@@ -156,52 +164,55 @@
                 <div class="card-body">
 
                     <div class="page-header">
-                        <h1 class="text-center">Compuadores</h1>
+                        <h1 class="text-center">Computadores</h1>
                     </div>
 
                     <div class="thumbnail">                                       
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="../../public/img/1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Ver</a>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="#" class="btn btn-danger">Favoritos</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Comprar</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
                             </div>
                         </div>
                     </div>                    
                     <div class="thumbnail">                                       
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="../../public/img/2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Ver</a>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="#" class="btn btn-danger">Favoritos</a>                            </div>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Comprar</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
                         </div>
                     </div>
                     <div class="thumbnail">                                       
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="../../public/img/3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Ver</a>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="#" class="btn btn-danger">Favoritos</a>                            </div>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Comprar</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
                         </div>
                     </div>
                     <div class="thumbnail">                                       
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="../../public/img/4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Ver</a>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                                <a href="#" class="btn btn-danger">Favoritos</a>                            </div>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Comprar</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
                         </div>
                     </div>
                 </div>
