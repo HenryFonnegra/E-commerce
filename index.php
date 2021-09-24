@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techno shop</title>
-    <link rel="stylesheet" href="../../public/css/style.css">
+    <link rel="stylesheet" href="public/css/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.php">
-                    <img src="../../public/img/Logo2.png" alt="" width="150" height="40" class="d-inline-block align-text-top">
+                    <img src="public/img/Logo2.png" alt="" width="150" height="40" class="d-inline-block align-text-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Producto/Create.php"> <b>Vender</b> </a>
+                            <a class="nav-link" href="resources/views/Producto/Create.php"> <b>Vender</b> </a>
                         </li>
 
                         <li class="nav-item">
@@ -62,10 +62,10 @@
                     </ul>
                     <form class="d-flex navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="login.php"> <i class="fas fa-sign-in-alt"></i> <b>Iniciar sesión</b></a>
+                            <a class="nav-link active" aria-current="page" href="resources/views/login.php"> <i class="fas fa-sign-in-alt"></i> <b>Iniciar sesión</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Usuario/Create.php"><b>Registrarse</b></a>
+                            <a class="nav-link active" aria-current="page" href="resources/views/Usuario/Create.php"><b>Registrarse</b></a>
                         </li>
                     </form>
                 </div>
@@ -76,13 +76,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../../public/img/1.jpg" class="d-block" alt="...">
+                <img src="public/img/1.jpg" class="d-block" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../../public/img/2.jpg" class="d-block" alt="...">
+                <img src="public/img/2.jpg" class="d-block" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../../public/img/3.jpg" class="d-block" alt="...">
+                <img src="public/img/3.jpg" class="d-block" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -106,11 +106,11 @@
 
                     <div class="thumbnail">                                       
                         <div class="card" >
-                            <img src="../../public/img/1.jpg" class="card-img-top" alt="...">
+                            <img src="public/img/1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="resources/views/Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
                                 <!-- <a href="#" class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Comprar</a> -->
                                 <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
                             </div>
@@ -118,33 +118,33 @@
                     </div>                    
                     <div class="thumbnail">                                       
                         <div class="card" >
-                            <img src="../../public/img/2.jpg" class="card-img-top" alt="...">
+                            <img src="public/img/2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="resources/views/Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
                                 <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
                             </div>
                         </div>
                     </div>
                     <div class="thumbnail">                                       
                         <div class="card" >
-                            <img src="../../public/img/3.jpg" class="card-img-top" alt="...">
+                            <img src="public/img/3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="resources/views/Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
                                 <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
                             </div>
                         </div>
                     </div>
                     <div class="thumbnail">                                       
                         <div class="card" >
-                            <img src="../../public/img/4.jpg" class="card-img-top" alt="...">
+                            <img src="public/img/4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="resources/views/Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
                                 <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>                            
                             </div>
                         </div>
@@ -165,44 +165,44 @@
 
                     <div class="thumbnail">                                       
                         <div class="card" >
-                            <img src="../../public/img/1.jpg" class="card-img-top" alt="...">
+                            <img src="public/img/1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="resources/views/Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
                                 <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
                             </div>
                         </div>
                     </div>                    
                     <div class="thumbnail">                                       
                         <div class="card" >
-                            <img src="../../public/img/2.jpg" class="card-img-top" alt="...">
+                            <img src="public/img/2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="resources/views/Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
                                 <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
                             </div>
                         </div>
                     </div>
                     <div class="thumbnail">                                       
                         <div class="card" >
-                            <img src="../../public/img/3.jpg" class="card-img-top" alt="...">
+                            <img src="public/img/3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="resources/views/Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
                                 <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
                             </div>
                         </div>
                     </div>
                     <div class="thumbnail">                                       
                         <div class="card" >
-                            <img src="../../public/img/4.jpg" class="card-img-top" alt="...">
+                            <img src="public/img/4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="resources/views/Producto/Show.php" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
                                 <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
                             </div>
                         </div>

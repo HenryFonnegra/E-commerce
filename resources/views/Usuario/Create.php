@@ -15,7 +15,7 @@
         <div class="contenedor">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.php">
+                    <a class="navbar-brand" href="../../../index.php">
                         <img src="../../../public/img/Logo2.png" alt="" width="150" height="40" class="d-inline-block align-text-top">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
