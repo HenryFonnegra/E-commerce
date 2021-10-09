@@ -35,7 +35,7 @@
     </div>
     
     <section>
-        <form action="">
+        <form action="" id="ProductoCreate">
             <div class="container py-3 bg-light rounded-2" >
                 <main class="full-box main-container">
                     <!-- Page content -->
@@ -48,8 +48,8 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="form-floating col-12 col-md-6">
-                                            <input type="text" class="form-control" id="floatingInput">
-                                            <label for="floatingInput">Marca</label>
+                                            <input type="text" class="form-control" id="Marca">
+                                            <label for="Marca">Marca</label>
                                         </div>
                                         <div class="form-floating col-12 col-md-6">
                                             <select class="form-control rounded-3" id="ProductProvider">
@@ -63,16 +63,16 @@
                                             </select>
                                         </div>
                                         <div class="form-floating col-12 col-md-6">
-                                            <input type="text" class="form-control" id="floatingInput">
-                                            <label for="floatingInput">Nombre </label>
+                                            <input type="text" class="form-control" id="Nombre">
+                                            <label for="Nombre">Nombre</label>
                                         </div>
                                         <div class="form-floating col-12 col-md-6">
-                                            <input type="text" class="form-control" id="floatingInput">
-                                            <label for="floatingInput">Modelo</label>
+                                            <input type="text" class="form-control" id="Modelo">
+                                            <label for="Modelo">Modelo</label>
                                         </div>
                                         <div class="form-floating col-12 col-md-6">
-                                            <input type="text" class="form-control" id="floatingInput">
-                                            <label for="floatingInput">Precio</label>
+                                            <input type="text" class="form-control" id="Precio">
+                                            <label for="Precio">Precio</label>
                                         </div>
                                         <div class="form-floating col-12 col-md-6">
                                             <select class="form-control rounded-3" id="ProductProvider">
@@ -111,18 +111,21 @@
                                                 <label for=""> <b>Subir fotos</b> </label>
                                             </div>
                                             <div class="form-check form-check-inline col-12 col-md-12">
-                                                <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                                <input type="file" accept="application/pdf" class="form-control" id="file" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                                             </div>
                                         </div>
                                         <div class="form-floating col-12 col-md-12">
-                                            <textarea class="form-control" id="floatingTextarea" maxlength="300"></textarea>
-                                            <label for="floatingTextarea">Descripción </label>
+                                            <textarea class="form-control" id="Descripción" maxlength="300"></textarea>
+                                            <label for="Descripción">Descripción </label>
                                         </div>
                                     </div>
                                 </div>
                             </fieldset>
+                            <div id="errorProducto">
+
+                            </div>
                             <div class="text-center">
-                                <button type="button" class="btn btn-primary"> <i class="fas fa-check"></i> Registrar</button>
+                                <button type="submit" class="btn btn-primary"> <i class="fas fa-check"></i> Registrar</button>
                                 <button type="button" class="btn btn-danger"> <i class="fas fa-times"></i> Cancelar</button>
                             </div>
                         </div>
@@ -130,7 +133,9 @@
                 </main>
             </div>
         </form>
+
+        
     </section>
-    
+<script src="../../../public/js/appProducto.js"></script>    
 </body>
 </html>
