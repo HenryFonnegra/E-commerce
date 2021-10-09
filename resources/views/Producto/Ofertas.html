@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Techno shop - Ofertas</title>
+        <link rel="stylesheet" href="../../../public/css/style.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="contenedor">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../../../index.html">
+                        <img src="../../../public/img/Logo2.png" alt="" width="150" height="40" class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Producto/Ofertas.html"> <b>Ofertas</b> </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>Categorias</b> 
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Celulares</a></li>
+                                    <li><a class="dropdown-item" href="#">Computadores</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartwatch</a></li>
+                                    <li><a class="dropdown-item" href="#">Televisores</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Acesorios</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Producto/Create.html"> <b>Vender</b> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> <b>Favoritos</b> </a>
+                            </li>
+    
+
+                            <li class="nav-item">
+                                <ul>
+                                    <div class="search">
+                                        <form class="d-flex">
+                                            <input class="form-control" size="50" type="search" placeholder="Search" aria-label="Search">
+                                            <button class="btn btn-success" type="submit">Buscar</button>
+                                        </form>
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../login.html"> <i class="fas fa-sign-in-alt"></i> <b>Iniciar sesión</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../Usuario/Create.html"><b>Registrarse</b></a>
+                            </li>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Barra de opciones de ofertas -->
+        <div class="ofertas" style="display: flex; justify-content: center;">
+            <ul class="list-group list-group-horizontal"  style="text-align: center;">
+                <a href="">
+                    <li class="list-group-item">
+                        <i class="fas fa-mobile-alt fa-7x"></i>
+                        <br>
+                        <label>Smartphone</label> 
+                    </li>
+                </a>
+                <a href="">
+                    <li class="list-group-item">
+                        <i class="fas fa-laptop fa-7x"></i>
+                        <br>
+                        <label>Laptop</label> 
+                    </li>
+                </a>
+                <a href="">
+                    <li class="list-group-item">
+                        <i class="fas fa-tablet-alt fa-7x"></i>
+                        <br>
+                        <label>Tablet</label>
+                    </li>   
+                </a>
+                <a href="">
+                    <li class="list-group-item">
+                        <i class="far fa-clock fa-7x" style="color: #14279B;"></i>
+                        <br>
+                        <label>Smartwatch</label>
+                    </li>    
+                </a>
+                <a href="">
+                    <li class="list-group-item">
+                        <i class="fas fa-tv fa-7x"></i>
+                        <br>
+                        <label>Televisores</label>
+                    </li>    
+                </a>
+                <a href="">
+                    <li class="list-group-item">
+                        <i class="fas fa-headphones fa-7x"></i>
+                        <br>
+                        <label>Accesorios</label>
+                    </li>    
+                </a>
+            </ul>
+        </div>
+
+        <section class="row">
+            <!-- Filtros de ofertas -->
+            <div class="card" style="width: 18%;">
+                <!-- <div>
+                    <h2 style="text-align: center;">Filtros</h2>
+                </div> -->
+
+                <div class="card-body" style="margin-left: 10px;">
+                    <div class="Precios">
+                        <h5 style="text-align: center;">Precios</h5>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                $0 - $50.000
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                $50.001 - $70.000
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                $70.001 - $80.000
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                $80.001 - $100.000
+                            </label>
+                        </div>
+                    </div>
+                    <div class="Categorias">
+                        <h5 style="text-align: center;">Marcas</h5>
+                        <label for="">Alcatel</label>
+                        <br>
+                        <label for="">Apple</label>
+                        <br>
+                        <label for="">Huawei</label>
+                        <br>
+                        <label for="">LG</label>
+                        <br>
+                        <label for="">Motorola</label>
+                        <br>
+                        <label for="">Nokia</label>
+                        <br>
+                        <label for="">Samsung</label>
+                        <br>
+                        <label for="">Xiaomi</label>
+                        <br>
+
+                        <label for="">Acer</label>
+                        <br>
+                        <label for="">Alienware</label>
+                        <br>
+                        <label for="">Apple</label>
+                        <br>
+                        <label for="">Asus</label>
+                        <br>
+                        <label for="">Dell</label>
+                        <br>
+                        <label for="">Gateway</label>
+                        <br>
+                        <label for="">HP</label>
+                        <br>
+                        <label for="">Lenovo</label>
+                        <br>
+                        <label for="">LG</label>
+                        <br>
+                        <label for="">MSI</label>
+                        <br>
+                        <label for="">Samsung</label>
+                        <br>
+                        <label for="">Sony</label>
+                        <br>
+                        <label for="">Toshiba</label>
+                        <br>
+                        <label for="">Otros</label>
+                    </div>
+                    
+                </div>   
+            </div>
+
+            <!-- Card de las ofertas -->
+            <div class="card" style="width: 80%;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="card col-12 col-md-4">
+                            <img src="../../../public/img/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="../Producto/Show.html" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-12 col-md-4">
+                            <img src="../../../public/img/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="../Producto/Show.html" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-12 col-md-4">
+                            <img src="../../../public/img/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="../Producto/Show.html" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-12 col-md-4">
+                            <img src="../../../public/img/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="../Producto/Show.html" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-12 col-md-4">
+                            <img src="../../../public/img/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="../Producto/Show.html" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="main">
+            <div class="card">
+                <div class="row">            
+                    <div class="card-body">
+    
+                        <div class="page-header">
+                            <h1 class="text-center">Computadores</h1>
+                        </div>
+    
+                        <div class="thumbnail">                                       
+                            <div class="card" >
+                                <img src="../../../public/img/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="resources/views/Producto/Show.html" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                    <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                                </div>
+                            </div>
+                        </div>                    
+                        <div class="thumbnail">                                       
+                            <div class="card" >
+                                <img src="../../../public/img/2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="resources/views/Producto/Show.html" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                    <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumbnail">                                       
+                            <div class="card" >
+                                <img src="../../../public/img/3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="resources/views/Producto/Show.html" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                    <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumbnail">                                       
+                            <div class="card" >
+                                <img src="../../../public/img/4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="resources/views/Producto/Show.html" class="btn btn-primary"> <i class="fas fa-eye"></i> Ver</a>
+                                    <a href="#" class="btn btn-danger"> <i class="fas fa-heart"></i> Favoritos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+    </body>
+</html>

@@ -45,7 +45,9 @@ body {
 .Formulario div{
   margin-bottom: 20px;
 }
-
+.ofertas .fas{
+  color: #14279B;
+}
 .main {
   width: 80%;
   float:none;
@@ -82,8 +84,8 @@ body {
 }
 .thumbnail{
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
 }
 .thumbnail img{
   width: 95%;
